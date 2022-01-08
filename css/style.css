@@ -24,3 +24,19 @@ p {
   font-family: "Rubik", sans-serif;
   text-align: justify;
 }
+
+header {
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
+}
+
+#my_picture {
+  grid-column: 1/2;
+  width: 150px;
+  height: auto;
+}
+
+#my_name {
+  grid-column: 2/3;
+}
