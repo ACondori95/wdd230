@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Rubik:wght@300&display=swap");
+
+:root {
+  --primary-color: #253237;
+  --secondary-color: #5c6b73;
+  --accent-one: #a8d0db;
+  --accent-two: #44af69;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: var(--primary-color);
+}
+
+h1,
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--accent-two);
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  text-align: justify;
+}
