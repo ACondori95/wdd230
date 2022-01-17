@@ -50,6 +50,39 @@ p {
   margin: 15px;
 }
 
+@media screen and (max-width: 64em) {
+  .main {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #visual-hierarchy {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 15px;
+  }
+
+  #hicks-law {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 15px;
+  }
+
+  #rule-of-thirds {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin: 50px auto;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .main {
+    display: block;
+  }
+}
+
 img {
   width: 350px;
 }
