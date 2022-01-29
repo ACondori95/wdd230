@@ -45,38 +45,36 @@ header {
 nav {
   margin: 0 auto;
   max-width: 760px;
-  background-color: tomato;
+  background-color: #eee;
 }
 
-.navigation {
-  list-style: none;
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-.navigation li:first-child {
+nav ul li a {
   display: block;
-}
-
-.navigation li {
-  display: none;
-}
-
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-align: left;
+  padding: 0.8rem 2vw;
   text-decoration: none;
-  color: black;
-  font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1rem, 2vmin, 1.5rem);
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.navigation a:hover {
-  color: white;
-  background-color: black;
+nav ul li a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
 }
 
-.responsive li {
-  display: block;
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
