@@ -1,6 +1,6 @@
-const menuButton = document.querySelector('.menu');
-const mainnav = document.querySelector('.navigation');
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("open");
+}
 
-menuButton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu();
