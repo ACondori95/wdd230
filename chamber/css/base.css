@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400&family=Bebas+Neue&display=swap");
+
+body {
+  margin: auto;
+  width: 100%;
+  min-width: 250px;
+  align-content: center;
+  text-align: center;
+}
+
+#banner {
+  background-color: #ff7070;
+  color: #00497a;
+  text-align: center;
+  width: 100%;
+  padding: 0.4em;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1em;
+  display: none;
+}
+
+/* Header */
+#main-logo {
+  margin-left: 15px;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+#facebook,
+#instagram {
+  width: 44px;
+  height: auto;
+  padding-left: 10px;
+}
+
+/* Navigation */
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #7a0000;
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #7a0000;
+  width: 104%;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #ff7070;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+}
+
+nav ul li a.active {
+  background-color: #a30000;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #ff7070;
+  color: #00497a;
+  transition: 0.5s ease-out;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* Date */
+#date {
+  background-color: #a30000;
+  color: #eee;
+  text-align: center;
+  width: 100%;
+  padding: 0.7em;
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1em;
+}
+
+/* Sections */
+main {
+  padding: 1.25em;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+main section {
+  margin: 10px;
+  background-color: #00497a;
+  color: white;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Welcome to Salta */
+.welcome {
+  position: absolute;
+  top: -35px;
+  text-shadow: 3px 3px 5px rgb(102, 101, 101);
+  padding: 0.4em;
+  font-size: 2.5rem;
+}
+
+.guemes-photo {
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+}
+
+picture {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#event {
+  background-color: #00497a;
+  color: white;
+  padding: 20px;
+}
+
+#hero {
+  position: relative;
+  background-color: white;
+}
+
+/* Join chamber button on photo */
+.overlay {
+  position: absolute;
+  bottom: 50px;
+  right: 7.9em;
+  padding: 15px;
+  background-color: #a30000;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #333;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: white;
+}
+
+#news {
+  background-color: #00497a;
+  color: white;
+  padding: 0.6em 1.25em 2.5em 1.25em;
+}
+
+#weather {
+  padding: 20px;
+}
+
+/* Temperature */
+#temp-par {
+  font-size: 2.5em;
+}
+
+/* Weather condition */
+#weather:nth-child(4) {
+  text-align: right;
+  font-size: 1.5em;
+  margin-right: 60px;
+}
+
+/* Wind speed and wind chill */
+#weather:nth-child(5) {
+  text-align: left;
+}
+
+#wind-chill {
+  font-size: 1em;
+}
+
+.sun-icon {
+  width: 25%;
+  height: auto;
+  align-content: center;
+}
+
+#join {
+  padding: 20px;
+}
+
+.join {
+  padding: 10px 40px;
+  background-color: #a30000;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #333;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: white;
+}
+
+#spotlights {
+  padding: 20px;
+  background-color: #00497a;
+}
+
+.spotlight1,
+.spotlight2,
+.spotlight3 {
+  border: 1px solid #00497a;
+  margin-top: 20px;
+  padding: 20px 40px 60px 20px;
+  background-color: #00497a;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 15px rgb(19, 5, 73);
+}
+
+/* Footer */
+footer {
+  background-color: #7a0000;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 20px;
+}
+
+footer img {
+  width: 200px;
+  height: auto;
+}
+
+footer div p {
+  font-weight: 200;
+}
+
+#contact p:nth-child(2) {
+  font-size: 16px;
+}
+
+footer div a img {
+  width: 200px;
+  height: auto;
+}
+
+#base-footer {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+#last-update {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}

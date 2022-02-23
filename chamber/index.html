@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Salta Chamber</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="banner">
+        <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+      </div>
+      <div id="top-nav">
+        <!-- logo -->
+        <img src="images/salta-logo.png" alt="" id="main-logo">
+        <!-- facebook -->
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebool-logo.png" alt="" id="facebook">
+        </a>
+        <!-- instagram -->
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/instagram-logo.jpg" alt="" id="instagram">
+        </a>
+        <!-- menu button -->
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      </div>
+      <ul id="primaryNav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <p id="date"></p>
+  </header>
+  <main class="index-main">
+    <section id="hero">
+      <h1 class="welcome">Welcome to Salta</h1>
+      <picture>
+        <img src="images/guemes-monument.jpg" alt="" class="guemes-photo">
+      </picture>
+      <div>
+        <button class="overlay">Join the Chamber</button>
+      </div>
+    </section>
+    <section id="event">
+      <h2>Free City Tour</h2>
+      <p class="event-date">February 23, 2022
+        <br>15:00 hs - 18:00 hs
+      </p>
+      <p>Come and learn more about this beautiful colonial city, full of history and adventure.</p>
+    </section>
+    <section id="weather">
+      <h2>Weather</h2>
+      <img src="images/sun-icon.png" alt="" class="sun-icon">
+      <p id="temp-par"><span id="temp">47</span>&deg;F</p>
+      <p>Sunny</p>
+      <p>Wind Speed: <span id="wind-speed">12</span>mph
+        <br>Wind Chill: <span id="wind-chill"></span>&deg;F</p>
+    </section>
+    <section id="news">
+      <h2>News</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <section id="join">
+      <h2>Join the Chamber!</h2>
+      <p>Discover the amazing oportunities the community has to offer.</p>
+      <button class="join">Join Us</button>
+    </section>
+    <section id="spotlights">
+      <div class="spotlight1">
+        <h2>La Monumental</h2>
+        <p>Come and try the best Argentinian barbecue around. Here you will try the mos delicious meat made by professionals.</p>
+      </div>
+      <div class="spotlight2">
+        <h2>Adobe</h2>
+        <p>Here you will experience the best regional food. Ever wondered what is the best local dish? Come and find it yourself!
+        </p>
+      </div>
+      <div class="spotlight3">
+        <h2>La Casona del Molino</h2>
+        <p>If you want a quiet place outside the city where you can just sit, enjoy great food and have a nice talk, this is the place.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="images/salta-logo.png" alt="">
+    <div id="address">
+      <p><strong>Salta Chamber of Commerce</strong>
+        <br>450 San Martin Av,
+        <br>Salta, ARG 4400</p>
+        <a href="https://goo.gl/maps/Frj3n5adSNgt2uAq7" target="_blank">
+          <img src="images/salta-map.png" alt="">
+        </a>
+    </div>
+    <div id="contact">
+      <p><strong>Contact Us</strong></p>
+      <p>(387) 532-9377
+        <br>saltachamber@email.com
+      </p>
+    </div>
+    <div id="base-footer">
+      <p class="copyright"> &copy; 2022 Salta Chamber | Alvaro Condori | WDD 230 Project | <span id="last-update"><script src="js/last_mod.js"></script></span></p>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/windchill.js"></script>
+</body>
+</html>
