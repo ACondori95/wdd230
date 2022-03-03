@@ -1,34 +1,38 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
+
+function displayProphets(prophets) {
+  let card = document.createElement('section');
+  let h2 = document.createElement('h2');
+  let p1 = document.createElement('p');
+  let p2 = document.createElement('p');
+  let picture = document.createElement('img');
+
+  const birthdt = 'Date of Birth: ';
+  const birthplc = 'Place of Birth: ';
+
+  h2.textContent = `${prophets.name} ${prophets.lastname}`;
+  card.appendChild(h2);
+
+  p1.textContent = `${birthdt}${prophets.birthdate}`;
+  card.appendChild(p1);
+
+  p2.textContent = `${birthplc}${prophets.birthplace}`;
+  card.appendChild(p2);
+
+  picture.src = `${prophets.imageurl}`;
+  picture.setAttribute('alt', `Portrait of ${prophets.name} ${prophets.lastname} - ${prophets.order}`);
+  card.appendChild(picture);
+
+  document.querySelector('div.cards').appendChild(card);
+}
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); // temporary checking for valid response and data parsing
+    console.table(jsonObject);
+    const prophets = jsonObject['prophets'];
     prophets.forEach(displayProphets);
   });
-
-  const prophets = jsonObject['prophets'];
-
-  function displayProphets(prophet) {
-    // Create elements to add to the document
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let portrait = document.createElement('img');
-
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-    image.setAttribute('src', prophet.imageurl);
-    image.setAttribute('alt', 'Portrait of ' + prophet.name + ' ' + prophet.lastname);
-    image.setAttribute('loading', 'lazy');
-
-    // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(image);
-
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
-  }
