@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Tren a las Nubes",
+    "address": "Planta Baja Local 33 Galería Baccaro, A4400 Salta",
+    "phone": "0387-422-8021",
+    "website": "http://www.trenalasnubes.com.ar/",
+    "icon": "./images/train-icon.png"
+  },
+  {
+    "name": "Biblioteca Provincial",
+    "address": "Av. Belgrano 1002, A4400AWV Salta Capital, Salta",
+    "phone": "0387-422-8021",
+    "website": "http://www.culturasalta.gov.ar/",
+    "icon": "./images/library.png"
+  },
+  {
+    "name": "Teleferico San Bernardo",
+    "address": "Av. San Martín 4400, A4400 Salta",
+    "phone": "0387-431-0641",
+    "website": "http://www.telefericosanbernardo.com/",
+    "icon": "./images/teleferico.png"
+  },
+  {
+    "name": "Feria del Libro",
+    "address": "Buenos Aires 83, A4400 Salta",
+    "phone": "0387-421-0359",
+    "website": " - ",
+    "icon": "./images/libro.png"
+  },
+  {
+    "name": "RAKI Parque Aereo",
+    "address": "av Banchik km 3,8, A4400 Salta",
+    "phone": "0387-587-4155",
+    "website": " - ",
+    "icon": "./images/escalar.png"
+  },
+  {
+    "name": "Tren a las Nubes",
+    "address": "Planta Baja Local 33 Galería Baccaro, A4400 Salta",
+    "phone": "0387-422-8021",
+    "website": "http://www.trenalasnubes.com.ar/",
+    "icon": "./images/train-icon.png"
+  }
+]
