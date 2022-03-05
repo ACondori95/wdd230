@@ -9,33 +9,40 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
-    <header>  
-      <img src="pictures/my_picture.jpg" alt="profile picture" id="my_picture">
-      <h1 id="my_name">Alvaro G. Condori</h1>
+
+    <header>
+      <h1>
+        <img src="pictures/my_picture.jpg" alt="profile picture" id="myphoto">
+        Alvaro G. Condori
+      </h1>
     </header>
     <main>
       <h2>WDD 230: Assignment Portal</h2>
-      <hr>
-      <ul>
-        <li>Lesson 02: <a href="lesson_02/html/design-principles.html">Design Principles</a></li>
-        <li>Lesson 03: <a href="lesson_03/index.html">Lesson 3</a></li>
-        <li>Lesson 04: <a href="chamber/index.html">Chamber</a></li>
-        <li>Lesson 05: <a href="#">Title</a></li>
-        <li>Lesson 06: <a href="#">Title</a></li>
-        <li>Lesson 07: <a href="lesson_07/lazyload.html">LazyLoad</a></li>
-        <li>Lesson 08: <a href="lesson_08/tablebuild.html">Table Build</a></li>
-        <li>Lesson 09: <a href="lesson_09/prophets.html">Prophets</a></li>
-        <li>Lesson 10: <a href="#">Title</a></li>
-        <li>Lesson 11: <a href="#">Title</a></li>
-      </ul>
-      <hr>
-      <p><i>Some lessons may need more than one activity/assignment link.</i></p>
+      <nav>
+        <ul>
+          <li>Lesson 02: <a href="lesson_02/html/design-principles.html">Design Principles</a></li>
+          <li>Lesson 03: <a href="lesson_03/index.html">Lesson 3</a></li>
+          <li>Lesson 04: <a href="chamber/index.html">Chamber</a></li>
+          <li>Lesson 05: <a href="#">Title</a></li>
+          <li>Student Presentation: <a
+              href="https://drive.google.com/file/d/1gW21TPh8Aay7soaks8vYPph9PvVWQv2R/view?usp=sharing">Cascade and
+              Inheritance</a></li>
+          <li>Lesson 06: <a href="#">Title</a></li>
+          <li>Lesson 07: <a href="lesson_07/lazyload.html">LazyLoad</a></li>
+          <li>Lesson 08: <a href="lesson_08/tablebuild.html">Table Build</a></li>
+          <li>Lesson 09: <a href="lesson_09/prophets.html">Prophets</a></li>
+          <li>Lesson 10: <a href="#">Title</a></li>
+          <li>Lesson 11: <a href="#">Title</a></li>
+        </ul>
+      </nav>
     </main>
     <footer>
-      <p>&#169; .:|:. Alvaro G. Condori .:|:. Argentina</p>
-      <span>Last Updated: 08/01/2022</span>
+      <p>&#169; <span id="thisyear"></span> .:|:. Alvaro G. Condori .:|:. Argentina</p>
+      <span id="datemodified"></span>
     </footer>
-  </div>
+
+    <script src="js/this-year.js"></script>
+    <script src="js/last-modified.js"></script>
+
 </body>
 </html>
