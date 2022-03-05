@@ -4,44 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/small.css">
+  <link rel="stylesheet" href="../css/medium.css">
+  <link rel="stylesheet" href="../css/large.css">
   <title>Design Priciples</title>
 </head>
 <body>
-  <div id="gen-div">
+
     <header>
-      <div id="header">
-        <h1 id="main-header">Design Principles Document</h1>
-        <p id="main-sub-header">Alvaro G. Condori</p>
-      </div>
+      
+        <h1>Design Principles Document</h1>
+        <h6>Alvaro G. Condori</h6>
+    
     </header>
-    <main class="main">
-      <div id="visual-hierarchy">
-        <h3>Visual Hierarchy</h3>
-        <h4>FRAVEGA</h4>
-        <p><a href="https://www.fravega.com/">https://www.fravega.com/</a></p>
-        <img src="../pictures/fravega.jpg" alt="fravega" id="fravega-img">
-        <p>Even when in the mobile version of the page it is posible to have lots of information at the same time on screen, it is obvius at first glance what is the information that is intended for the public to notice first, which is the special sale that is being offered during summer season.</p>
-      </div>
-      <div id="hicks-law">
-        <h3>Hick's Law</h3>
-        <h4>MCDONALD'S</h4>
-        <p><a href="https://www.mcdonalds.com.ar/">https://www.mcdonalds.com.ar/</a></p>
-        <img src="../pictures/mcdonalds.jpg" alt="mcdonalds" id="mcdonalds-img">
-        <p>Hick's Law suggest that the more options you give the user, the longer it takes for the user to make a decition. McDonald's take full advantage of this concept by creating a meaningful picture and giving the user just one option, which is just 'Conoce más' (it means Learn More). By doing this they will optimize the use of the visitor's desire to know at least a little more of a potencial discount and will spend more time browsing on the website.</p>
-      </div>
-      <div id="rule-of-thirds">
-        <h3>Rule of Thirds</h3>
-        <h4>YPF</h4>
-        <p><a href="https://www.ypf.com/Paginas/home.aspx">https://www.ypf.com/Paginas/home.aspx</a></p>
-        <img src="../pictures/ypf.jpg" alt="ypf" id="ypf-img">
-        <p>In this image, the main message is not at the center of the image. This leads the user to navigate through the whole page and pay atention to different details on the image. By doing this the, company leads the user to have the desire to learn more about the company and spend more time on its website.</p>
-      </div>
+    <main>
+      <section class="principle1">
+        <div>
+          <h3>Visual Hierarchy</h3>
+          <h4>FRAVEGA</h4>
+          <p><a href="https://www.fravega.com/">https://www.fravega.com/</a></p>
+          <img src="../pictures/fravega.jpg" alt="fravega" id="fravega-img">
+          <p>Even when in the mobile version of the page it is posible to have lots of information at the same time on screen, it is obvius at first glance what is the information that is intended for the public to notice first, which is the special sale that is being offered during summer season.</p>
+        </div>
+      </section>
+      
+      <section class="principle2">
+        <div>
+          <h3>Hick's Law</h3>
+          <h4>MCDONALD'S</h4>
+          <p><a href="https://www.mcdonalds.com.ar/">https://www.mcdonalds.com.ar/</a></p>
+          <img src="../pictures/mcdonalds.jpg" alt="mcdonalds" id="mcdonalds-img">
+          <p>Hick's Law suggest that the more options you give the user, the longer it takes for the user to make a decition. McDonald's take full advantage of this concept by creating a meaningful picture and giving the user just one option, which is just 'Conoce más' (it means Learn More). By doing this they will optimize the use of the visitor's desire to know at least a little more of a potencial discount and will spend more time browsing on the website.</p>
+        </div>
+      </section>
+
+      <section class="principle3">
+        <div>
+          <h3>Rule of Thirds</h3>
+          <h4>YPF</h4>
+          <p><a href="https://www.ypf.com/Paginas/home.aspx">https://www.ypf.com/Paginas/home.aspx</a></p>
+          <img src="../pictures/ypf.jpg" alt="ypf" id="ypf-img">
+          <p>In this image, the main message is not at the center of the image. This leads the user to navigate through the whole page and pay atention to different details on the image. By doing this the, company leads the user to have the desire to learn more about the company and spend more time on its website.</p>
+        </div>
+      </section>
+      
     </main>
     <footer>
-      <p>&#169; | Alvaro G. Condori | Last Updated: 01/15/2022 23:22:53</p>
+      <p>&#169; <span id="thisyear"></span> | Alvaro G. Condori | <span id="datemodified"></span></p>
     </footer>
-  </div>
+
+    <script src="../js/this-year.js"></script>
+    <script src="../js/last-modified.js"></script>
+
 </body>
 </html>

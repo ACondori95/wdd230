@@ -1,0 +1,34 @@
+@media screen and (min-width: 32.5em) {
+  footer {
+    font-size: 1.5em;
+  }
+
+  header,
+  footer {
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav li {
+    font-size: 1.5em;
+  }
+
+  section {
+    border-radius: 15px;
+  }
+
+  .principle3 {
+    grid-column-end: span 2;
+  }
+}

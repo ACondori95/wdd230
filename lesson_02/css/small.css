@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+
+body {
+  background-color: #c0f5c3;
+  color: #047526;
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: "Fira", "Sansita", serif;
+}
+
+footer {
+  color: yellow;
+  background-color: #047526;
+  text-align: center;
+  margin: 0px;
+  border: 2px solid yellow;
+  font-size: 0.9em;
+}
+
+footer a:hover {
+  color: #047526;
+  background-color: yellow;
+}
+
+footer a:active,
+footer a:visited,
+footer a:link {
+  color: yellow;
+  background-color: #047526;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bree", "Rockwell", serif;
+  color: #047526;
+}
+
+h1 {
+  font-family: "Bree", "Rockwell", serif;
+  color: yellow;
+  font-size: 25px;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 17px;
+  border-bottom: 5px double;
+  margin: 10px;
+}
+
+h6 {
+  color: yellow;
+  font-size: 2em;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #047526;
+  margin: 0px;
+  padding: 20px;
+  border: 2px solid yellow;
+}
+
+main {
+  margin: 10px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  /*  grid-template-columns: 4; */
+  grid-gap: 10px;
+}
+
+nav li {
+  font-size: 1.5em;
+  margin: 0 0 0 25px;
+}
+
+nav a:hover {
+  color: #047526;
+  background-color: yellow;
+}
+
+section {
+  border: 2px solid #047526;
+  /*  align-content: center; */
+}
+
+section div {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+  margin: 0;
+}
+
+section a {
+  text-align: center;
+  padding: 15px;
+}
+
+section img {
+  width: 100%;
+}
+
+section p {
+  padding: 10px 0 0 0;
+}
+
+.placeholder {
+  margin: 25px;
+}
+
+#headingname {
+  font-size: 55px;
+}
