@@ -1,42 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Rubik:wght@300&display=swap");
 
-:root {
-  --primary-color: #253237;
-  --secondary-color: #5c6b73;
-  --accent-one: #a8d0db;
-  --accent-two: #44af69;
-}
-
 body {
-  max-width: 1000px;
+  background-color: #fac9b8;
+  color: #650d1b;
+  max-width: 650px;
   margin: 0 auto;
-  padding: 1em;
-  background-color: var(--primary-color);
-}
-
-h1,
-h2 {
-  font-family: "Merriweather Sans", sans-serif;
-  color: var(--accent-two);
-}
-
-p {
   font-family: "Rubik", sans-serif;
-  text-align: justify;
 }
 
-header {
-  display: grid;
-  grid-template-columns: 300px auto;
+footer {
+  color: orange;
+  background-color: #650d1b;
+  text-align: center;
+  margin: 20px 0 0 0;
+  border: 2px solid orange;
+  border-radius: 15px;
+}
+
+footer a:hover {
+  color: #650d1b;
+  background-color: orange;
+}
+
+footer a:active,
+footer a:visited,
+footer a:link {
+  color: orange;
+  background-color: #650d1b;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: #650d1b;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  color: orange;
+  font-size: 40px;
+  background-color: #650d1b;
+  margin: 0px;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 15px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-#my_picture {
-  grid-column: 1/2;
-  width: 150px;
-  height: auto;
+h2 {
+  font-size: 25px;
+  margin: 15px;
 }
 
-#my_name {
-  grid-column: 2/3;
+main {
+  margin: 10px 0 0 0;
+}
+
+nav ul {
+  border-bottom: 5px double;
+  border-top: 5px double;
+  padding: 15px;
+  margin: 0;
+}
+
+nav li {
+  font-size: 1.5em;
+  margin: 0 0 0 25px;
+}
+
+nav a:hover {
+  color: #650d1b;
+  background-color: orange;
+}
+
+.placeholder {
+  margin: 25px;
+}
+
+#myphoto {
+  width: 20%;
+  float: left;
+  margin: 15px;
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  nav li {
+    font-size: 0.85em;
+  }
 }
