@@ -1,32 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Rubik:wght@300&display=swap");
 
 body {
-  background-color: #c0f5c3;
-  color: #047526;
+  background-color: #fac9b8;
+  color: #650d1b;
   max-width: 950px;
   margin: 0 auto;
-  font-family: "Fira", "Sansita", serif;
+  font-family: "Rubik", sans-serif;
 }
 
 footer {
-  color: yellow;
-  background-color: #047526;
+  color: orange;
+  background-color: #650d1b;
   text-align: center;
   margin: 0px;
-  border: 2px solid yellow;
+  border: 2px solid orange;
   font-size: 0.9em;
 }
 
 footer a:hover {
-  color: #047526;
-  background-color: yellow;
+  color: #650d1b;
+  background-color: orange;
 }
 
 footer a:active,
 footer a:visited,
 footer a:link {
-  color: yellow;
-  background-color: #047526;
+  color: orange;
+  background-color: #650d1b;
 }
 
 h2,
@@ -34,13 +34,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bree", "Rockwell", serif;
-  color: #047526;
+  font-family: "Merriweather", serif;
+  color: #650d1b;
 }
 
 h1 {
-  font-family: "Bree", "Rockwell", serif;
-  color: yellow;
+  font-family: "Merriweather", serif;
+  color: orange;
   font-size: 25px;
   margin: 5px;
 }
@@ -52,24 +52,23 @@ h2 {
 }
 
 h6 {
-  color: yellow;
+  color: orange;
   font-size: 2em;
   margin: 0;
 }
 
 header {
   text-align: center;
-  background-color: #047526;
+  background-color: #650d1b;
   margin: 0px;
   padding: 20px;
-  border: 2px solid yellow;
+  border: 2px solid orange;
 }
 
 main {
   margin: 10px 0 0 0;
   display: grid;
   grid-template-columns: 1fr;
-  /*  grid-template-columns: 4; */
   grid-gap: 10px;
 }
 
@@ -79,13 +78,12 @@ nav li {
 }
 
 nav a:hover {
-  color: #047526;
-  background-color: yellow;
+  color: #650d1b;
+  background-color: orange;
 }
 
 section {
-  border: 2px solid #047526;
-  /*  align-content: center; */
+  border: 2px solid #650d1b;
 }
 
 section div {
