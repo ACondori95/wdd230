@@ -1,23 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Noto+Serif&display=swap");
-
-html {
-  background-color: #91f5f9;
-}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Rubik:wght@300&display=swap");
 
 body {
   max-width: 940px;
   margin: 0 auto;
-  background-color: #dfbcfc;
+  background-color: #fac9b8;
   padding: 1em;
-  font-family: "Alegraya Sans", sans-serif;
-  color: purple;
+  font-family: "Rubik", sans-serif;
+  color: #650d1b;
   border-radius: 0;
 }
 
 h1 {
   margin: 0;
-  font-family: "Noto Serif", serif;
-  color: white;
+  font-family: "Merriweather", serif;
+  color: #f1f0e8;
 }
 
 h2,
@@ -25,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Serif", serif;
-  color: purple;
+  font-family: "Merriweather", serif;
+  color: #650d1b;
 }
 
 h3 {
@@ -43,28 +39,28 @@ header {
   margin: 5px;
   padding: 1em;
   text-align: left;
-  background-color: purple;
+  background-color: #650d1b;
 }
 
 header h2 {
   margin: 0;
   font-size: 0.8em;
-  color: white;
+  color: #f1f0e8;
 }
 
 header div {
-  color: white;
+  color: #f1f0e8;
 }
 
 #hero img {
-  border: 3px solid purple;
+  border: 3px solid #650d1b;
 }
 
 nav {
   line-height: 1em;
   text-align: right;
-  font-family: "Noto Serif", serif;
-  background-color: purple;
+  font-family: "Merriweather", serif;
+  background-color: #650d1b;
 }
 
 main {
@@ -109,7 +105,7 @@ form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: purple;
+  color: #650d1b;
   font-size: 0.8rem;
 }
 
@@ -118,10 +114,10 @@ form label.top textarea {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
-  border: 1px solid purple;
+  border: 1px solid #650d1b;
   border-radius: 4px;
   padding: 0.75rem;
-  color: purple;
+  color: #650d1b;
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -130,13 +126,13 @@ form label.top textarea {
 form label.sbs {
   display: block;
   padding: 0.5rem 0;
-  color: purple;
+  color: #650d1b;
 }
 
 form input.submitBtn {
   border: none;
-  background-color: purple;
-  color: white;
+  background-color: #650d1b;
+  color: #f1f0e8;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 2%;
@@ -173,7 +169,7 @@ nav li {
   font-size: 0.8em;
   padding: 2px;
   margin: 0;
-  border: 2px solid #dfbcfc;
+  border: 2px solid #fac9b8;
 }
 
 nav a {
@@ -185,12 +181,12 @@ nav a {
 
 nav a:link,
 nav a:visited {
-  color: white;
+  color: #f1f0e8;
 }
 
 nav a:hover {
-  color: purple;
-  background-color: white;
+  color: #650d1b;
+  background-color: #f1f0e8;
   margin: 0;
 }
 
@@ -203,25 +199,25 @@ nav a:hover {
 #call2action a:link,
 #gotojoin a:visited,
 #call2action a:visited {
-  color: white;
+  color: #f1f0e8;
 }
 
 #gotojoin a:hover,
 #call2action a:hover {
-  color: purple;
-  background-color: white;
+  color: #650d1b;
+  background-color: #f1f0e8;
 }
 
 p {
-  font-family: "Alegreya Sans", sans-serif;
-  color: purple;
+  font-family: "Rubik", sans-serif;
+  color: #650d1b;
   padding: 1em;
   font-size: 1.2em;
 }
 
 footer {
   font-size: 0.9em;
-  background-color: purple;
+  background-color: #650d1b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -229,7 +225,7 @@ footer {
 
 footer p {
   text-align: center;
-  color: white;
+  color: #f1f0e8;
   margin: 0;
   padding: 0.5em;
 }
@@ -238,14 +234,14 @@ footer h1,
 footer h2,
 footer h3,
 footer h6 {
-  color: white;
+  color: #f1f0e8;
   text-align: center;
   margin: 0;
   padding: 3px;
 }
 
 footer a {
-  color: white;
+  color: #f1f0e8;
 }
 
 section {
@@ -262,9 +258,9 @@ section {
   top: 10px;
   right: 10px;
   z-index: 10;
-  color: #dfbcfc;
-  background-color: purple;
-  border: 1px solid #dfbcfc;
+  color: #fac9b8;
+  background-color: #650d1b;
+  border: 1px solid #fac9b8;
   font-size: 5vw;
 }
 
@@ -277,7 +273,7 @@ section {
 
 #discover-images img {
   width: 300px;
-  border: 3px solid purple;
+  border: 3px solid #650d1b;
 }
 
 #discover-images p {
@@ -290,7 +286,7 @@ section {
 }
 
 #logo {
-  border: 2px solid purple;
+  border: 2px solid #650d1b;
   width: 75%;
   border-radius: 50%;
   grid-column: 1/9;
@@ -305,7 +301,7 @@ section {
 
 #footercity {
   display: block;
-  color: white;
+  color: #f1f0e8;
 }
 
 #footerlogo {
@@ -332,7 +328,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: purple;
+  background-color: #650d1b;
 }
 
 #headercity {
@@ -386,7 +382,7 @@ section {
 #chamberdate {
   padding: 3px;
   font-size: 0.8rem;
-  color: white;
+  color: #f1f0e8;
 }
 
 #instagram {
@@ -577,7 +573,7 @@ nav ul.open {
 
 #hamburguerBtn span:nth-child(1) {
   display: block;
-  color: white;
+  color: #f1f0e8;
 }
 
 #hamburguerBtn span:nth-child(2) {
@@ -594,13 +590,13 @@ nav ul.open {
 
 #hamburguerBtn.open span:nth-child(2) {
   display: block;
-  color: white;
+  color: #f1f0e8;
 }
 
 #banner {
-  background-color: #91f5f9;
-  color: purple;
-  border: 1px solid purple;
+  background-color: #fac9b8;
+  color: #650d1b;
+  border: 1px solid #650d1b;
   font-size: 1em;
 }
 
@@ -615,7 +611,7 @@ nav ul.open {
 }
 
 #view button {
-  background-color: #dfbcfc;
+  background-color: #fac9b8;
   margin: 0;
   padding: 0;
   border: none;
