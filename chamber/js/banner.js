@@ -1,9 +1,9 @@
-const bannerfill = document.getElementById('banner');
+const banner_msg = document.getElementById('banner');
 const todayDate = new Date();
 const dow = todayDate.getDay();
 
 if (dow == 1 || dow == 2) {
-  bannerfill.style.display = 'block';
+  banner_msg.style.display = 'block';
 } else {
-  bannerfill.style.display = 'none';
+  banner_msg.style.display = 'none';
 }

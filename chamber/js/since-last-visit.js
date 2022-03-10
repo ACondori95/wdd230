@@ -8,11 +8,9 @@ if (lastvisit != 0) {
   if (daysBetween.toFixed(0) != 1) {
     document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
     window.localStorage.setItem('last-visit-date', thisvisit);
-    thisvisit = NULL;
   } else {
     document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day sinceyour last visit.';
     window.localStorage.setItem('last-visit-date', thisvisit);
-    thisvisit = NULL;
   }
 } else {
   window.localStorage.setItem('last-visit-date', Date.now());
