@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Home page for Salta Chamber of Commerce by Alvaro Condori in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+
+  <title>Salta Chamber of Commerce - Home Page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="headergrid">
+      <img src="images/salta-logo-webp.webp" alt="Salta Chamber of Commerce logo" id="logo">
+      <div id="headercity">
+        <h1>Salta</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+      <div id="headerlinks">
+        <div>
+          <a href="http://www.facebook.com" target="_blank"><img src="images/facebool-logo.png" alt="Facebook icon"
+              id="facebook"></a>
+          <a href="http://www.instagram.com" target="_blank"><img src="images/instagram-logo.jpg" alt="Instagram icon"
+              id="instagram"></a>
+        </div>
+      </div>
+    </div>
+    <div id="headerbottom">
+      <div id="headerdate">
+        <h3 id="chamberdate">todays date</h3>
+      </div>
+      <nav id="headernav">
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="contactInfo1">
+      <h2>Contact us</h2>
+      <h3>Address</h3>
+      <div id="contactAddr">
+        <p class="contact">Salta Chamber of Commerce</p>
+        <p class="contact">450 San Martin Avenue</p>
+        <p class="contact">Salta, Salta</p>
+      </div>
+    </div>
+
+    <div id="contactInfo2">
+      <h3>Phone</h3>
+      <div id="contactPhone">
+        <p class="contact">387-432-9377</p>
+      </div>
+      <h3>Email</h3>
+      <div id="contactEmail">
+        <p class="contact">info@saltachamber.com</p>
+      </div>
+    </div>
+
+    <div id="contactForm">
+      <h2>Contact Us</h2>
+      <form method="get">
+        <fieldset id="contactField">
+          <legend>Contact Information</legend>
+          <label class="top">Name*: <input type="text" name="name" required></label>
+          <label class="top">Email*: <input type="email" name="email" placeholder="example@email.com" required></label>
+          <label class="top">Cell Phone: <input type="tel" name="phone" placeholder="3871234444"></label>
+          <label class="top">Comments: <textarea name="comment" cols="30" rows="10" placeholder="What do you want to know about us?"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Send" class="submitBtn">
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <div id="footerlogo">
+      <a href="index.html" target="_self"><img src="images/salta-logo-webp.webp" alt="Salta Chamber of Commerce Logo">
+      </a>
+    </div>
+    <div id="footercity">
+      <h1>Salta</h1>
+      <h2>Chamber of Commerce</h2>
+    </div>
+    <div>
+      <h6>
+        info@saltachamber.com
+      </h6>
+    </div>
+    <div>
+      <p>&copy; <span id="thisyear"></span> Salta Chamber | Alvaro Condori | WDD 230 Project </p>
+      <p id="datemodified"></p>
+    </div>
+  </footer>
+
+  <script src="js/this-year.js" defer async></script>
+  <script src="js/last-modified.js" defer async></script>
+  <script src="js/todays-date.js" defer async></script>
+  <script src="js/toggle-menu.js" defer async></script>
+
+</body>
+
+</html>
