@@ -535,3 +535,24 @@ form label.top input:required:valid {
 }
 
 /* DISCOVER */
+
+#discover-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+#discover-images img {
+  width: 300px;
+  border: 3px solid #650d1b;
+}
+
+#discover-images p {
+  width: 100%;
+  max-width: 400px;
+}
+
+#lastvisit {
+  text-align: center;
+}
