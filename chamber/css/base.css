@@ -556,3 +556,118 @@ form label.top input:required:valid {
 #lastvisit {
   text-align: center;
 }
+
+/* DIRECTORY */
+
+#view img {
+  width: 100px;
+}
+
+#view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#view button {
+  background-color: #fac9b8;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#view button img {
+  width: 100%;
+  border: 2px solid #300455;
+}
+
+#cardviewBtn span:nth-child(1) {
+  display: block;
+}
+
+#cardviewBtn span:nth-child(2) {
+  display: none;
+}
+
+#cardviewBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#cardviewBtn.open span:nth-child(2) {
+  display: block;
+}
+
+#bizdir section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  box-shadow: 2px 2px #300455;
+}
+
+#bizdir.open section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+#bizdir section p {
+  margin: 0;
+  padding: 2px;
+  align-self: center;
+}
+
+#bizdir.open section p {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+
+#bizdir h3 {
+  align-self: center;
+}
+
+#bizdir img {
+  height: 80px;
+  display: block;
+}
+
+#bizdir.open img {
+  display: none;
+}
+
+#bizdir.open section:nth-child(even) {
+  background-color: #fac9b8;
+}
+
+#bizdir.open section:nth-child(odd) {
+  background-color: #f1f0e8;
+}
+
+#bizdir section p:nth-child(4) {
+  display: none;
+}
+
+#bizdir.open section p:nth-child(4) {
+  display: none;
+}
+
+/* CONTACT */
+
+p.contact {
+  padding: 0;
+}
+
+#contactAddr,
+#contactPhone,
+#contactEmail {
+  margin: 15px;
+}
+
+#contactField {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
